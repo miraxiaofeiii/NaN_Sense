@@ -1,0 +1,17 @@
+{
+  "silver_pos": 52703,
+  "silver_neg": 52703,
+  "avg_precision_val": 0.9967043684377502,
+  "chosen_threshold": 0.17857275056796662,
+  "target_precision": 0.95
+}
+
+classification_report@
+              precision    recall  f1-score   support
+
+           0      1.000     0.947     0.973     10541
+           1      0.950     1.000     0.974     10541
+
+    accuracy                          0.974     21082
+   macro avg      0.975     0.974     0.974     21082
+weighted avg      0.975     0.974     0.974     21082

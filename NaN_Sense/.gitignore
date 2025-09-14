@@ -1,0 +1,33 @@
+# data & heavy intermediates
+data/
+*.parquet
+
+# analysis artifacts
+out_spam_ml/
+out_trends/
+out_qer/
+out_categories/
+out_pain/
+
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# virtual envs
+.venv/
+venv/
+.env/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# caches / models (keep them local)
+.cache/
+huggingface/
+models/
+logs/
